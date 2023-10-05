@@ -7,7 +7,12 @@ shlex | Designing + Programming
 iRay  | Programming
 
 ]]
-
+--[[
+* Infinity Hub Version 1.0.0
+- By Yay
+- Script Infinity Hub Not Anti Cheat
+- Discord : https://discord.gg/nSWsBWBxBw
+]]
 
 
 local Release = "Beta 1"
