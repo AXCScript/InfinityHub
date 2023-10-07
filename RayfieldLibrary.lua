@@ -257,7 +257,7 @@ local function LoadConfiguration(Configuration)
 				end    
 			end)
 		else
-			RayfieldLibrary:Notify({Title = "Flag Error", Content = "Rayfield was unable to find '"..FlagName.. "'' in the current script"})
+			print("(Message) : Flag Error "..FlagName.." ")
 		end
 	end
 end
