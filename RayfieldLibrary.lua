@@ -2118,6 +2118,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleDisabled
 				Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleDisabledOuterStroke
 			else
+				ToggleSettings.CurrentValue = true
+				ToggleSettings.Callback(ToggleSettings.CurrentValue)
 				Toggle.Switch.Indicator.Position = UDim2.new(1, -20, 0.5, 0)
 				Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleEnabledStroke
 				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleEnabled
