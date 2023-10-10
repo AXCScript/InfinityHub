@@ -1826,7 +1826,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 				--	end,
 				--})
 
-				DropdownSettings.Callback(DropdownSettings.CurrentOption)
 				DropdownOption.Interact.ZIndex = 50
 				DropdownOption.Interact.MouseButton1Click:Connect(function()
 					if not DropdownSettings.MultipleOptions and table.find(DropdownSettings.CurrentOption, Option) then 
@@ -1975,7 +1974,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 					RayfieldLibrary.Flags[DropdownSettings.Flag] = DropdownSettings
 				end
 			end
-
+				DropdownSettings.Callback(DropdownSettings.CurrentOption)
 			return DropdownSettings
 		end
 
