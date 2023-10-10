@@ -1974,7 +1974,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 					RayfieldLibrary.Flags[DropdownSettings.Flag] = DropdownSettings
 				end
 			end
-				DropdownSettings.Callback(DropdownSettings.CurrentOption)
 			return DropdownSettings
 		end
 
